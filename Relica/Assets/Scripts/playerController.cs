@@ -43,6 +43,11 @@ public class playerController : MonoBehaviour
             rBody.velocity += Vector2.up * Physics2D.gravity.y * (lowfall - 1) * Time.deltaTime;
         }
 
+        if (Input.GetButtonDown("Vertical") && isGrounded == false)
+        {
+            GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpvel * -1;
+        }
+
 
         rBody.velocity = new Vector2(horiz * speed, rBody.velocity.y);
     
