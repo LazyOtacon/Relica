@@ -7,13 +7,13 @@ public class Knight_Destroy : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         //This will be if arrow hits the knight
-        if (col.gameObject.name == "INSERT NAME OF ARROW HERE")
+        if (col.gameObject.name == "Arrow(Clone)")
         {
             Destroy(col.gameObject);
             Destroy(this.gameObject);
         }
         //This will be if player touches the knight
-        if (col.gameObject.name == "INSERT NAME OF PLAYER CHARACTER HERE")
+        if (col.gameObject.name == "Ventus wip")
         {
             Destroy(col.gameObject);
             Destroy(this.gameObject);

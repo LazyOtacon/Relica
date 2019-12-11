@@ -16,7 +16,7 @@ public class Victory : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col)
     {
         //This will be if Player reaches end
-        if (col.gameObject.name == "Knight (1)")
+        if (col.gameObject.name == "Ventus wip")
         {
             congratulations.SetActive(true);
         }
