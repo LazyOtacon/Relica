@@ -12,6 +12,10 @@ public class Victory : MonoBehaviour
         {
             SceneManager.LoadScene("Relica Game");
         }
+        if (Input.GetKey(KeyCode.F))
+        {
+            Application.Quit();
+        }
     }
     void OnCollisionEnter2D(Collision2D col)
     {

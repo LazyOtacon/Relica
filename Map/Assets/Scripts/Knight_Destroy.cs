@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Knight_Destroy : MonoBehaviour
 {
+    public GameObject death;
     void OnCollisionEnter2D(Collision2D col)
     {
         //This will be if arrow hits the knight
@@ -15,6 +16,7 @@ public class Knight_Destroy : MonoBehaviour
         //This will be if player touches the knight
         if (col.gameObject.name == "Ventus wip")
         {
+            death.SetActive(true);
             Destroy(col.gameObject);
             Destroy(this.gameObject);
         }
