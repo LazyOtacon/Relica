@@ -7,12 +7,17 @@ public class Shoot : MonoBehaviour
     public Transform bow;
     public GameObject arrow;
     public float arrowSpeed = 10f;
-    
+    public float fireRate = 0.5f;
+    private float counter = 0.0f;
+
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        counter += Time.deltaTime;
+
+        if (Input.GetButtonDown("Fire1") && counter > fireRate)
         {
             fire();
+            counter = 0.0f;
         }
 
 
