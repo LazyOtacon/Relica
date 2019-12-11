@@ -24,7 +24,7 @@ public class ArrowMove : MonoBehaviour
         if (collision.gameObject)
         {
             // player.gameObject.transform.position =  new Vector2(arrow.gameObject.transform.position.x, arrow.gameObject.transform.position.y);
-            player.transform.position = new Vector3(collision.gameObject.transform.position.x, collision.gameObject.transform.position.y + 1, collision.gameObject.transform.position.z);
+            player.transform.position = new Vector3(collision.gameObject.transform.position.x - 1, collision.gameObject.transform.position.y + 1, collision.gameObject.transform.position.z);
 
             Destroy(gameObject);
         }

@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Knight_Destroy
     - RotateArrow
     - Shoot
+    - Tutorial_Pop_Up
     - Victory
     - playerController
     Unity.2D.Tilemap.Editor.dll:
@@ -69,11 +70,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11230}
+      Script: {instanceID: 11214}
     - Class: 114
-      Script: {instanceID: 11490}
+      Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 14200}
+      Script: {instanceID: 11492}
+    - Class: 114
+      Script: {instanceID: 13024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -291,7 +294,7 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 6ffbe299f2ac173050dcd1cc4a1f8203
+      Hash: a1dbf60615ab73dcbfda05d6f08d246c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ArrowMove
@@ -453,6 +456,12 @@ ScriptsOnlyBuild:
     className: Jump
   - hash:
       serializedVersion: 2
+      Hash: 2c0638cf8fd202a45576f730d24f0b6a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Tutorial_Pop_Up
+  - hash:
+      serializedVersion: 2
       Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -562,4 +571,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Relica Game.unity
-  playerPath: C:/Users/301064361/Desktop/Relica Executable/Relica.exe
+  playerPath: C:/Users/301064361/Desktop/Relica Executable/MonoBleedingEdge/Relica.exe
