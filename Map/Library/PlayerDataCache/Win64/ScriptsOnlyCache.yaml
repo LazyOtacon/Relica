@@ -47,33 +47,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9662}
+      Script: {instanceID: 9664}
     - Class: 114
-      Script: {instanceID: 9726}
+      Script: {instanceID: 9728}
     - Class: 114
-      Script: {instanceID: 9796}
+      Script: {instanceID: 9798}
     - Class: 114
-      Script: {instanceID: 9828}
+      Script: {instanceID: 9830}
     - Class: 114
-      Script: {instanceID: 10266}
+      Script: {instanceID: 10268}
     - Class: 114
-      Script: {instanceID: 10396}
+      Script: {instanceID: 10398}
     - Class: 114
-      Script: {instanceID: 10460}
+      Script: {instanceID: 10462}
     - Class: 114
-      Script: {instanceID: 11054}
+      Script: {instanceID: 11056}
     - Class: 114
-      Script: {instanceID: 11096}
-    - Class: 114
-      Script: {instanceID: 11112}
+      Script: {instanceID: 11098}
     - Class: 114
       Script: {instanceID: 11114}
     - Class: 114
-      Script: {instanceID: 11228}
+      Script: {instanceID: 11116}
     - Class: 114
-      Script: {instanceID: 11488}
+      Script: {instanceID: 11230}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 11490}
+    - Class: 114
+      Script: {instanceID: 14200}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -562,4 +562,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Relica Game.unity
-  playerPath: C:/Users/ericf/Desktop/Relica Executable/Relica.exe
+  playerPath: C:/Users/301064361/Desktop/Relica Executable/Relica.exe

@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 752783796160519648}
   m_LocalRotation: {x: 0, y: 0, z: 0.9688498, w: 0.2476492}
-  m_LocalPosition: {x: -1.5766443, y: -3.485387, z: 0}
+  m_LocalPosition: {x: 1.73, y: -1.83, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 752783796188398570}
@@ -279,6 +279,7 @@ MonoBehaviour:
   bow: {fileID: 752783796508883666}
   arrow: {fileID: 8530652662094234624, guid: 046cf2399d20e4646a7209102da157ed, type: 3}
   arrowSpeed: 10
+  fireRate: 0.5
 --- !u!1 &752783796893562321
 GameObject:
   m_ObjectHideFlags: 0
